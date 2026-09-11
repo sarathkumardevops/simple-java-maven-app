@@ -80,13 +80,13 @@
     <!-- Repository for Release Versions -->
     <repository>
       <id>nexus-releases</id>
-      <url>http://http://13.127.26.208/repository/maven-releases/</url>
+      <url>http://13.127.26.208/repository/maven-releases/</url>
     </repository>
 
     <!-- Repository for Snapshot Versions -->
     <snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>http://http://13.127.26.208/repository/maven-snapshot-jar/</url>
+      <url>http://13.127.26.208/repository/maven-snapshot-jar/</url>
     </snapshotRepository>
   </distributionManagement>
 
