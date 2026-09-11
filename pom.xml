@@ -86,7 +86,7 @@
     <!-- Repository for Snapshot Versions -->
     <snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>http://13.127.26.208:8081/repository/maven-snapshot/</url>
+      <url>http://13.127.26.208:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
