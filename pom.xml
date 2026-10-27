@@ -63,19 +63,6 @@
         </configuration>
       </plugin>
 
-      <!-- Deploy Plugin for Uploading Artifacts -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-deploy-plugin</artifactId>
-        <version>3.1.0</version>
-        <configuration>
-          <repositoryId>nexus-snapshots</repositoryId>
-          <url>http://34.205.73.123:8081/repository/maven-snapshots/</url>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
-
   <distributionManagement>
     <!-- Repository for Release Versions -->
     <repository>
